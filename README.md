@@ -218,4 +218,4 @@ Ricárdez, A., Bastién Montoya, M., Hernández, B., & H. S., R. S. (2017). Estr
 
 ## **ANEXOS**
 
-https://github.com/attoala/Informe-lab2/tree/master/anexos
+https://github.com/fernandoSando/Informe-3/tree/master/Anexos
