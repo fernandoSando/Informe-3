@@ -119,7 +119,7 @@ Descripción de los equipos y materiales**
 Arme el circuito que se muestra en la figura 3.1.
 </section>
       <div class="container mt-5 mb-5">
-        <img src="https://cdn.glitch.com/a7d4561e-bb3e-4916-95fd-cc07aab571ec%2Fb55b21e87e81b79c1b8a18acf92e443f.jpg?v=1590115958949"
+        <img src="img/1.PNG"
           alt=""
           height="200"
           style ="float-left ml-4"
@@ -142,7 +142,7 @@ Mida cada uno de los voltajes de nodo y anote los resultados en la tabla 3.1.
 ## **DIAGRAMAS**
 </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lap10.PNG"
+        <img src="img/2222.PNG"
           alt=""
           height="300"
           style ="float-left ml-4"
@@ -165,7 +165,7 @@ Crear una cuenta de Tinkercad y generar la simulación de la practica 3
 
  </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab7.PNG"
+        <img src="img/1111.PNG"
           alt="listado de todos los componentes utilizados para el circuito"
           height="300"
           style ="float-left ml-4"
