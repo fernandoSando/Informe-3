@@ -65,7 +65,7 @@ Descripción de los equipos y materiales**
    </section>
 
 
-**Resistores** de 1kΩ, 2.2kΩ, 1.kΩ, 390Ω y 820Ω. Los utilizaremos para crear el circuito que vamos a medir
+**Resistores** de 1.8(kΩ), 2.2(kΩ), 1.5(kΩ), 470(Ω) y 3.90(kΩ). Los utilizaremos para crear el circuito que vamos a medir
 
 </section>
       <div class="container mt-5 mb-5">
