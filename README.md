@@ -17,12 +17,11 @@ Comprobar experimentalmente el Análisis de Nodos.
        
 ## MARCO TEÓRICO
 
-	Al igual que con el análisis de mallas del anterior laboratorio y también se requiere el conocer la ley de corrientes de Kirchhoff, de esta forma se puede dar con los resultados requeridos.  
+Al igual que con el análisis de mallas del anterior laboratorio y también se requiere el conocer la ley de corrientes de Kirchhoff, de esta forma se puede dar con los resultados requeridos.
 
 **Análisis de nodos**
 
-	La incógnita que se esa buscando aquí es la tensión de 2 nodos, “Se dejará que aumente el número de nodos y se proporcionará de manera correspondiente una cantidad desconocida adicional y una ecuación extra para cada nodo agregado.” (William H. Hayt, Kemmerly, & Durbin, 2012). Una forma de entender el análisis es que, por ejemplo, un circuito que tenga 3 nodos va a tener 2 tensiones las cuales no sabemos. De forma general un circuito que tenga N nodos  tendrá N-1 tensiones desconocidas y por ende N-1 ecuaciones para encontrarlas, cabe recalcar que estas ecuaciones se encuentran gracias a la ley de corrientes e Kirchhoff y para comenzar siempre se toma un nodo de referencia, normalmente el que esté con mas ramas. 
- parecer no planos y si serlo.
+La incógnita que se esa buscando aquí es la tensión de 2 nodos, “Se dejará que aumente el número de nodos y se proporcionará de manera correspondiente una cantidad desconocida adicional y una ecuación extra para cada nodo agregado.” (William H. Hayt, Kemmerly, & Durbin, 2012). Una forma de entender el análisis es que, por ejemplo, un circuito que tenga 3 nodos va a tener 2 tensiones las cuales no sabemos. De forma general un circuito que tenga N nodos  tendrá N-1 tensiones desconocidas y por ende N-1 ecuaciones para encontrarlas, cabe recalcar que estas ecuaciones se encuentran gracias a la ley de corrientes e Kirchhoff y para comenzar siempre se toma un nodo de referencia, normalmente el que esté con mas ramas.
 
 <section>
       <div class="container mt-5 mb-5">
