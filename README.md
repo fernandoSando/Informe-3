@@ -103,7 +103,7 @@ Arme el circuito que se muestra en la figura 3.1.
 
 
 Mida cada uno de los voltajes de nodo y anote los resultados en la tabla 3.1.
- 3.5.3. Simule en el software Multisim, Proteus, o cualquier otro simulador, el circuito de la figura 3.1, obteniendo los valores de los voltajes de nodo. Anote los resultados en la tabla
+Simule en el software Multisim, Proteus, o cualquier otro simulador, el circuito de la figura, obteniendo los valores de los voltajes de nodo. Anote los resultados en la tabla
 
 ***Tabla 3.1. Resultados obtenidos para el circuito de la figura 3.1.***
 |NODO   |RESULTADOS ANALÍTICOS| RESULTADOS SIMULADOS|
