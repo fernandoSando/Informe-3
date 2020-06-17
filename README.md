@@ -25,7 +25,7 @@ La incógnita que se esa buscando aquí es la tensión de 2 nodos, “Se dejará
 
 <section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab1.PNG"
+        <img src="img/9.PNG"
           alt=""
           height="150"
           style ="float-left ml-4"
@@ -42,7 +42,7 @@ La incógnita que se esa buscando aquí es la tensión de 2 nodos, “Se dejará
 **Fuente de voltaje C.D.** Es de donde conseguir electricidad para el circuito
 <section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab3.PNG"
+        <img src="img/4.PNG"
           alt=""
           height="98"
           style ="float-left ml-4"
@@ -55,7 +55,7 @@ La incógnita que se esa buscando aquí es la tensión de 2 nodos, “Se dejará
 
 </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab4.PNG"
+        <img src="img/6.PNG"
           alt=""
           height="98"
           style ="float-left ml-4"
@@ -68,7 +68,7 @@ La incógnita que se esa buscando aquí es la tensión de 2 nodos, “Se dejará
 
 </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab5.PNG"
+        <img src="img/7.PNG"
           alt=""
           height="98"
           style ="float-left ml-4"
@@ -79,7 +79,7 @@ La incógnita que se esa buscando aquí es la tensión de 2 nodos, “Se dejará
 **Protoboard.** Es la base en la cual se va a formar el circuito con los elementos de este.
 </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab6.PNG"
+        <img src="img/8.PNG"
           alt=""
           height="98"
           style ="float-left ml-4"
