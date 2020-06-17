@@ -33,11 +33,11 @@ La incógnita que se esa buscando aquí es la tensión de 2 nodos, “Se dejará
    </div>
    </section>
    
-*Ilustración 1,Ejemplos de circuitos planos y no planos.*
+   
+ *Ilustración 1, Circuitos y sus nodo.*
 
 # **DESCRIPCIÓN DE LOS EQUIPOS Y MATERIALES**
 
-Descripción de los equipos y materiales**
 
 **Fuente de voltaje C.D.** Es de donde conseguir electricidad para el circuito
 <section>
@@ -49,8 +49,7 @@ Descripción de los equipos y materiales**
         />           
    </div>
    </section> 
-   
- *Ilustración 1, Circuitos y sus nodo.*
+
    
 **Multímetro digital**. Nos ayudara para poder hacer las mediciones de la practica
 
