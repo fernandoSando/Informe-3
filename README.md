@@ -17,23 +17,15 @@ Comprobar experimentalmente el Análisis de Nodos.
        
 ## MARCO TEÓRICO
 
-El inicio de este estudio no puede darse si no se tiene el conocimiento necesario de las leyes de Kirchhoff tanto la de corriente como la de voltaje de la misma forma la ley de ohm, ya que estas son un pilar fundamental para el análisis de circuitos y ayudan con nuevos métodos que lo facilitan aún más como, en este caso, el análisis de mallas.
+Al igual que con el análisis de mallas del anterior laboratorio y también se requiere el conocer la ley de corrientes de Kirchhoff, de esta forma se puede dar con los resultados requeridos.
 
-Antes de poder dar una definición de malla se debe conocer lo que es una trayectoria, trayectoria cerrada o lazo.
+**Análisis de nodos**
 
-“Un punto en el cual dos o más elementos tienen una conexión común se llama nodo” (William H. Hayt, Kemmerly, & Durbin, 2012). Es una fácil definición de nodo, en otras palabras, es donde se conectan varios elementos.
-
-“Si no encontramos un nodo más de una vez, entonces el conjunto de nodos y elementos a través de los cuales pasamos se define como una trayectoria” (William H. Hayt, Kemmerly, & Durbin, 2012). Para mejor entendimiento es el sentido que puede tomar un circuito. Claro pasando por los nodos correspondientes. La diferencia entre trayectoria y trayectoria cerrada es que esta ultima termina en el mismo lugar done comienza ya también se la conoce como lazo.
-
-Ya con todo este conocimiento y junto a la ley de Kirchhoff de voltajes podemos dar inicio al conocimiento del análisis de mayas.
-
-**Análisis de mallas**
-
-Así como la ley de Kirchhoff de corriente se utiliza en los nodos para encontrar los valores que se necesitan, pues con la ley de voltajes de Kirchhoff se puede hacer algo muy parecido solo que en este en vez de utilizar nodos utilizamos lazos, y el hecho de hacer eso se lo conoce como Análisis de mallas, se tiene como restricción el poder hacerse solo en circuitos planos, pero comparado con el análisis de nodos este resulta mas complicado en determinados casos, se considera circuito plano el que al representarse en 2d no se superponen ramas, siempre se tienen que analizar bastante bien los circuitos porque a veces pueden parecer no planos y si serlo.
+La incógnita que se esa buscando aquí es la tensión de 2 nodos, “Se dejará que aumente el número de nodos y se proporcionará de manera correspondiente una cantidad desconocida adicional y una ecuación extra para cada nodo agregado.” (William H. Hayt, Kemmerly, & Durbin, 2012). Una forma de entender el análisis es que, por ejemplo, un circuito que tenga 3 nodos va a tener 2 tensiones las cuales no sabemos. De forma general un circuito que tenga N nodos  tendrá N-1 tensiones desconocidas y por ende N-1 ecuaciones para encontrarlas, cabe recalcar que estas ecuaciones se encuentran gracias a la ley de corrientes e Kirchhoff y para comenzar siempre se toma un nodo de referencia, normalmente el que esté con mas ramas.
 
 <section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab1.PNG"
+        <img src="img/9.PNG"
           alt=""
           height="150"
           style ="float-left ml-4"
@@ -41,47 +33,29 @@ Así como la ley de Kirchhoff de corriente se utiliza en los nodos para encontra
    </div>
    </section>
    
-*Ilustración 1,Ejemplos de circuitos planos y no planos.*
-
-
-“La malla es una propiedad de un circuito de forma plana y no se define para un circuito de forma no plana, sino como un lazo que no contiene ningún otro lazo dentro de él” (William H. Hayt, Kemmerly, & Durbin, 2012). Puede confundir un poco que significa una malla al principio pero viendo un grafico se entiende bien, que quiere decir que si una trayectoria cerrada tiene una rama dentro de él, entonces, no se considera una malla, en cambio si esta libre de cualquier elemento dentro de la trayectoria cerrada entonces si se puede llamar malla.
-
- <section>
-      <div class="container mt-5 mb-5">
-        <img src="img/lab 2.PNG"
-          alt=""
-          height="150"
-          style ="float-left ml-4"
-        />           
-   </div>
-   </section>
    
-*Ilustración 2, Circuito que no es y si es malla respectivamente.*
-
-La forma de poder trabajar con las mallas es aplicando la LKV en dicha malla obteniendo ecuaciones para poder calcular los datos que nos falten, se puede hacer con todas las mallas y aplicar un sistema de ecuaciones para poder resolver las incógnitas. Al nombrar las mallas suelen acogerse al nombre de la intensidad de corriente que pasa por las ramas adyacentes.
+ *Ilustración 1, Circuitos y sus nodo.*
 
 # **DESCRIPCIÓN DE LOS EQUIPOS Y MATERIALES**
 
-Descripción de los equipos y materiales**
 
 **Fuente de voltaje C.D.** Es de donde conseguir electricidad para el circuito
 <section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab3.PNG"
+        <img src="img/4.PNG"
           alt=""
           height="98"
           style ="float-left ml-4"
         />           
    </div>
    </section> 
-   
- *Ilustración 3, Fuente C.D*
+
    
 **Multímetro digital**. Nos ayudara para poder hacer las mediciones de la practica
 
 </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab4.PNG"
+        <img src="img/6.PNG"
           alt=""
           height="98"
           style ="float-left ml-4"
@@ -90,11 +64,11 @@ Descripción de los equipos y materiales**
    </section>
 
 
-**Resistores** de 1kΩ, 2.2kΩ, 1.kΩ, 390Ω y 820Ω. Los utilizaremos para crear el circuito que vamos a medir
+**Resistores** de 1.8(kΩ), 2.2(kΩ), 1.5(kΩ), 470(Ω) y 3.90(kΩ). Los utilizaremos para crear el circuito que vamos a medir
 
 </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab5.PNG"
+        <img src="img/7.PNG"
           alt=""
           height="98"
           style ="float-left ml-4"
@@ -105,7 +79,7 @@ Descripción de los equipos y materiales**
 **Protoboard.** Es la base en la cual se va a formar el circuito con los elementos de este.
 </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab6.PNG"
+        <img src="img/8.PNG"
           alt=""
           height="98"
           style ="float-left ml-4"
