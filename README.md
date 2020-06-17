@@ -1,21 +1,19 @@
 # Informe-3
-#  ANÁLISIS DE NODOS.
 
+#  ANÁLISIS DE NODOS.
 
 ## OBJETIVOS
 
 Comprobar experimentalmente el Análisis de Nodos.
 
 **Objetivos específicos:** 
- - Identificar las Mallas del circuito  
- -  Demostrar si se cumple el análisis de mallas tanto en los valores analíticos y en los
-   simulados.     
- - Calcular las  corrientes en el circuito propuesto.   
+ - Identificar los Nodos del circuito  
+ -  Demostrar si se cumple el análisis de Nodos tanto en los valores analíticos y en los
+   simulados.    
  - Comprobar los resultados y los datos necesarios  del  circuito    
-   propuesto, demostrando el análisis de mallas.    
+   propuesto, demostrando el análisis de nodos.    
  - Comparar los resultados obtenidos tanto del  análisis teórico como
-   simulado y sacar conclusiones.
-       
+   simulado y sacar conclusiones.       
        
 ## MARCO TEÓRICO
 
@@ -118,10 +116,10 @@ Descripción de los equipos y materiales**
 
 # **PROCEDIMIENTO**
 
-Arme el circuito que se muestra en la figura 2.1.
+Arme el circuito que se muestra en la figura 3.1.
 </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab9.PNG"
+        <img src="img/1.PNG"
           alt=""
           height="200"
           style ="float-left ml-4"
@@ -130,22 +128,21 @@ Arme el circuito que se muestra en la figura 2.1.
    </section>
 
 
-Mida cada una de las corrientes de malla y anote los resultados en la tabla.  
-Simule en el software Multisim, Proteus, o cualquier otro simulador, el circuito de la figura 2.1, obteniendo los valores de las corrientes de malla. Anote los resultados en la tabla 
+Mida cada uno de los voltajes de nodo y anote los resultados en la tabla 3.1.
+ 3.5.3. Simule en el software Multisim, Proteus, o cualquier otro simulador, el circuito de la figura 3.1, obteniendo los valores de los voltajes de nodo. Anote los resultados en la tabla
 
-***Tabla 2.1. Resultados obtenidos para el circuito de la figura 2.1.***
-|MALLA       |RESULTADOS ANALÍTICOS| RESULTADOS SIMULADOS|
+***Tabla 3.1. Resultados obtenidos para el circuito de la figura 3.1.***
+|NODO   |RESULTADOS ANALÍTICOS| RESULTADOS SIMULADOS|
 |------------|-----------------|---------------------|
-|**Malla 1** |11.45[mA]        |11.5[mA]|
-|**Malla 1** |2.84[mA]         |2.85[mA]|
-|**Malla 1** |0.48[mA]         |0.488[mA]|
+|**Nodo B**  |2.81[V]          |2.82[V]|
+|**Nodo C**  |4.81[V]          |4.80[V]|
+|**Nodo R**  |0[V]             |0[V]|
 
-Verifique si se cumple la Ley de Kirchhoff de Voltajes en cada trayectoria cerrada, considerando las elevaciones de voltaje con signo positivo y las caídas de voltaje con signo negativo. Anote los resultados en la siguiente tabla.
 
 ## **DIAGRAMAS**
 </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lap10.PNG"
+        <img src="img/2222.PNG"
           alt=""
           height="300"
           style ="float-left ml-4"
@@ -156,19 +153,19 @@ Verifique si se cumple la Ley de Kirchhoff de Voltajes en cada trayectoria cerra
 ## **MAPA DE VARIABLES**
 
 
-   **Resistores**: de 1(kΩ), 2.2(kΩ), 1.2(kΩ), 390(Ω) y 820(Ω). 
+   **Resistores**: de 1.8(kΩ), 2.2(kΩ), 1.5(kΩ), 470(Ω) y 3.90(kΩ). 
    
-   **Fuentes**: de 18[V] y 5[V].
+   **Fuentes**: de 12[V] y 8[V].
     
 ## **DESCRIPCIÓN**
-Crear una cuenta de Tinkercad y generar la simulación de la practica 2
+Crear una cuenta de Tinkercad y generar la simulación de la practica 3
 
 
 ## **LISTA DE COMPONENTES**
 
  </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab7.PNG"
+        <img src="img/1111.PNG"
           alt="listado de todos los componentes utilizados para el circuito"
           height="300"
           style ="float-left ml-4"
@@ -180,13 +177,13 @@ Crear una cuenta de Tinkercad y generar la simulación de la practica 2
 
 ## **CONCLUSIONES**
 
-Con esta práctica se pudo adquirir los conocimientos teóricos de lo que el abalisis de mallas,su tipo y su clasificación de acuerdo al circuito montado.
+Con esta práctica se pudo adquirir los conocimientos teóricos de lo que el abalisis de nodos,su tipo y su clasificación de acuerdo al circuito montado.
 
-Deducimos según ley de Kirchhoff que expone que cuando en un circuito intervienen dos o más fuentes de voltaje, además de ramificaciones estamos en presencia de una red eléctrica. Para que resolvamos una red eléctrica es necesario realizar un proceso en el cual calculamos las intensidades de corrientes que circulan por cada malla.
+Deducimos según ley de Kirchhoff que expone que cuando en un circuito intervienen dos o más fuentes de voltaje, además de ramificaciones estamos en presencia de una red eléctrica. Para que resolvamos una red eléctrica es necesario realizar un proceso en el cual calculamos las tensiones que circulan por cada nodo.
 
-Para el análisis completo de un circuito eléctrico requiere conocer la corriente que fluye en cada una de sus mallas para lo cual usamos la ley de volaje de Kirchhoff en las diferentes mallas y asi establecer ecuaciones que relacionan las direciones de corrientes que pasan por cada resistencia en las diferentes malla y asi podemos obtener las soluciones del sistema.
+El método del voltaje en los nodos es un método organizado para analizar un circuito, que está basado en la ley de Kirchhoff de la corriente.
 
-Con la ley de Kirchhoff de voltajes analiza lazos a diferencia de la ley de corriente ese analisis es concosido como anlisis de mallas.
+Es muy importante conocer el flujo de corriente en un circuito electrico puesto que este analisis se basa en elflujo de corriente para poder plantear las ecuaciones basadas en las mismas.
 
 Las leyes de Kirchhoff han sido una gran ayuda para la innovación tecnológica ya que han permitido medir con exactitud ciertas características eléctricas necesarias para que el invento funcione óptima mente.
 
@@ -201,9 +198,9 @@ Para un comprension  total de todo lo impartido en fundamentos de circuitos elec
 
  </section>
       <div class="container mt-5 mb-5">
-        <img src="img/lab8.PNG"
+        <img src="img/3333.PNG"
           alt="Cronograma de actividades del informe"
-          height="300"
+          height="400"
           style ="float-left ml-4"
         />           
    </div>
@@ -221,4 +218,4 @@ Ricárdez, A., Bastién Montoya, M., Hernández, B., & H. S., R. S. (2017). Estr
 
 ## **ANEXOS**
 
-https://github.com/attoala/Informe-lab2/tree/master/anexos
+https://github.com/fernandoSando/Informe-3/tree/master/Anexos
